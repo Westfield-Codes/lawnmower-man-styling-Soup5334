@@ -1,45 +1,67 @@
 body {
-}
-.box{
-  width:500px;
-  height:150px;
-  margin:0 auto;
-}
+      background-color: #018281 ;
+    }
+.box {
+      border: 1px solid black;
+      height: 200px;
+      width: 600px;
+      margin:auto;
+      margin-top: 100px;
+      background-color: #C0C0C0;
+    }
 
-.title button{
+ .title p {
+      font-family: Garamond ;
+      color:white;
+      background-color: #000080;
+      margin: 3px 3px 15px 3px;
+    }    
+ 
+  .title button{
   width:15px;
   height:15px;
 }
 
 .body {
+
 }
 
-#leftside {
-  width:375px;
+#leftsid label {
+  width:375px;  
+  margin: 10px 10px 10px 10px;
 }
 
 #dialogs {
-  width:240px;
+  width:240px; 
+
 }
 
 .body p {
 }
 
 
-#buttons {
+    #buttons {
   height:50px;
   width:100px;
 }
 
 #buttons button {
   width:80px;
+}
 
 .body button{
 }
 
 label {
+
 }
 
 input {
   width:150px;
 }
+img{
+float:right;
+position:absolute;   
+}
+
+  
