@@ -14,26 +14,37 @@ body {
       font-family: Garamond ;
       color:white;
       background-color: #000080;
-      margin: 3px 3px 15px 3px;
+      margin: 3px 3px 0px 3px;
     }    
  
   .title button{
   width:15px;
   height:15px;
+  float:right;
+  font-family: Garamond ;
 }
 
 .body {
 
 }
-
+#leftside {
+  text-align: center;
+  margin-top: 0px ;
+  font-family: Garamond ;
+}
 #leftsid label {
   width:375px;  
   margin: 10px 10px 10px 10px;
+  font-family: Garamond ;
 }
 
 #dialogs {
   width:240px; 
+  margin: 0px 0px 0px 100px;
 
+}
+#dialogs:nth-child(3) {
+  
 }
 
 .body p {
@@ -53,15 +64,17 @@ body {
 }
 
 label {
-
+  
 }
 
 input {
   width:150px;
 }
 img{
-float:right;
-position:absolute;   
+float:left 20px;
+position:absolute;
+margin: 10px 0px 0px 15px;
+height: 75px ;
 }
 
   
