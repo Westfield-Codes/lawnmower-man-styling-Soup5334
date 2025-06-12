@@ -1,6 +1,7 @@
 body {
       background-color: #018281 ;
     }
+    
 .box {
       border: 1px solid black;
       height: 200px;
@@ -8,68 +9,43 @@ body {
       margin:auto;
       margin-top: 100px;
       background-color: #C0C0C0;
-    }
+       font-family: Garamond ;
+}
 
- .title p {
-      font-family: Garamond ;
+.title p {
       color:white;
       background-color: #000080;
       margin: 3px 3px 0px 3px;
     }    
  
-  .title button{
+.title button{
   width:15px;
   height:15px;
   float:right;
-  font-family: Garamond ;
 }
 
-.body {
-
-}
 #leftside {
   text-align: center;
   margin-top: 0px ;
-  font-family: Garamond ;
-}
-#leftsid label {
-  width:375px;  
-  margin: 10px 10px 10px 10px;
-  font-family: Garamond ;
+
 }
 
-#dialogs {
+#dialogs label {
   width:240px; 
-  margin: 0px 0px 0px 100px;
+  margin: 25px 0px 0px 100px;
 
 }
-#dialogs:nth-child(3) {
-  
-}
-
-.body p {
-}
 
 
-    #buttons {
+#buttons {
   height:50px;
   width:100px;
-}
-
-#buttons button {
-  width:80px;
-}
-
-.body button{
-}
-
-label {
-  
 }
 
 input {
   width:150px;
 }
+
 img{
 float:left 20px;
 position:absolute;
