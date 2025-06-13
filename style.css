@@ -4,7 +4,7 @@ body {
     
 .box {
       border: 1px solid black;
-      height: 200px;
+      height: 180px;
       width: 600px;
       margin:auto;
       margin-top: 100px;
@@ -12,33 +12,52 @@ body {
        font-family: Garamond ;
 }
 
-.title p {
+.title {
       color:white;
       background-color: #000080;
-      margin: 3px 3px 0px 3px;
+      height: 13%;
+     margin: 3px 3px 0px 3px;  
     }    
+
+  .title p {
+    display:inline-block;
+    width: 80%;
+    margin: inherit;    
+  }
  
 .title button{
   width:15px;
   height:15px;
   float:right;
+  margin: inherit;
 }
+
 
 #leftside {
   text-align: center;
+  display: inline-block;
 
+}
+
+#leftside p {
+  margin: 15px 0px 30px 120px;
 }
 
 #dialogs label { 
 float:left;
 clear:left;
-margin: 0px 0px 0px 100px;
+margin: 0px 0px 15px 100px;
 width: 100px;
 }
 
 #buttons {
   height:50px;
   width:100px;
+ float:right;
+  margin-top: 13px;
+}
+button {
+  display:block;
 }
 
 input {
