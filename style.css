@@ -55,6 +55,18 @@ width: 100px;
   width:100px;
  float:right;
   margin-top: 13px;
+    font-family: Garamond;
+}
+#ok {
+  margin-bottom: 10px;
+  width:80px;
+  height: 25px;
+  font-family: Garamond;
+}
+#cancel {
+  width:80px;
+  height: 25px;
+  font-family: Garamond;
 }
 button {
   display:block;
